@@ -1,0 +1,25 @@
+/* // Medium devices (tablets, less than 992px) */
+
+@media (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+
+  /* Nav-Bar */
+  .nav-center {
+    display: none;
+  }
+
+  .nav2 {
+    border-right: 0.5px solid #e1e1e1;
+    margin-right: 48px;
+  }
+  /* ABOUT */
+  .target,
+  .personal-info {
+    padding: 64px 16px 48px 48px;
+  }
+  .info {
+    padding: 0;
+  }
+}

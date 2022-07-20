@@ -1,0 +1,38 @@
+/* // // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  /* body {
+    max-width: 100%;
+  }
+
+  .blackground-image {
+    max-width: 100%;
+  } */
+
+  /* Nav-Bar */
+  .nav-center {
+    display: none;
+  }
+  .nav-bar,
+  .about,
+  .job-info,
+  .certificate-images,
+  .project {
+    display: block;
+  }
+  .nav1,
+  .nav2,
+  .nav3,
+  .nav4 {
+    padding: 6px;
+    margin-left: 16px;
+    border-style: none;
+  }
+
+  .cer2 {
+    border-left: none;
+  }
+
+  footer {
+    font-size: 150%;
+  }
+}
